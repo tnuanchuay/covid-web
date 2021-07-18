@@ -11,7 +11,7 @@ export const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <NavDropdown.Item href="#whatisit">What is it ?</NavDropdown.Item>
-                        <NavDropdown.Item href="https://github.com/tspn">About me</NavDropdown.Item>
+                        <NavDropdown.Item href="https://github.com/tspn/covid-web">contribute</NavDropdown.Item>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
