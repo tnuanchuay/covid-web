@@ -86,5 +86,8 @@ data.append({
 })
 
 data = data[-10:]
-
-print(json.dumps({'data':list(data)}))
+result = json.dumps({'data':list(data)})
+print(result)
+w = open('result.json', 'a')
+w.write(result)
+w.close()
