@@ -1,5 +1,3 @@
-from flask import Flask
-from flask_cors import CORS
 from tensorflow.keras.models import Model, load_model
 import pandas as pd
 import json
