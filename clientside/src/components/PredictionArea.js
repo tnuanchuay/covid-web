@@ -7,7 +7,7 @@ export const PredictionArea = () => {
     const [data, setdata] = useState(0);
 
     useEffect(() => {
-        fetch("http://localhost:5000/data")
+        fetch("http://139.59.242.9:8000/data")
             .then(res => res.json())
             .then(
                 json => {
