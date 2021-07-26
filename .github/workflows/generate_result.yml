@@ -14,6 +14,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - id: install
-        run: apt install python
+        run: sudo apt install -y python3
 
       
