@@ -18,6 +18,6 @@ jobs:
       - name: install python deps
         run: pip3 install tensorflow pandas numpy scikit-learn
       - name: generate new today result
-        run: result.json << python3 static_generator/main.py && cat result.json
+        run:  python3 static_generator/main.py >> result.json && cat result.json
 
       
