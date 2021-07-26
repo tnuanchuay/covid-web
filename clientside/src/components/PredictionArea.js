@@ -7,7 +7,7 @@ export const PredictionArea = () => {
     const [data, setdata] = useState(0);
 
     useEffect(() => {
-        fetch("http://139.59.242.9:8000/data")
+        fetch("https://raw.githubusercontent.com/tspn/covid-web/main/result.json")
             .then(res => res.json())
             .then(
                 json => {

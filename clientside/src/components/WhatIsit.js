@@ -17,9 +17,9 @@ export const WhatIsIt = () => {
                         also send feedback backward to previous cell during model training.
                     </p>
                     <p>
-                        This experiment use available dataset from <a href="https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv">github.com/owid/covid-19-data </a>
-                        which contain many features that can be used e.g., cumulative case, new case and vaccination.
-                        The researcher selected number of cumulative case and vaccination from 90+ countries for trainning and validate this machine learning model.
+                        This experiment uses available dataset from <a href="https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv">github.com/owid/covid-19-data </a>
+                        which contains many features that can be used e.g., cumulative case, new case and vaccination.
+                        The researchers have selected number of cumulative case and vaccination from 90+ countries for trainning and validate this machine learning model.
                         Train the ML model with 50 day of [Cumulative case, Vaccination total] blocks. Use Adam optimizer, MAE as a loss function, MAPE as a indicator.
                         Each models return cumulative case on next 7, 14, 21, 28 day ahead.
                     </p>
