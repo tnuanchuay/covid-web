@@ -20,10 +20,10 @@ df = loadData()
 columns = df.columns.values
 
 print("!!! Loading models")
-model7 = load_model('pre-train/new-vac-1H-7')
-model14 = load_model('pre-train/new-vac-1H-14')
-model21 = load_model('pre-train/new-vac-1H-21')
-model28 = load_model('pre-train/new-vac-1H-28')
+model7 = load_model('static_generator/pre-train/new-vac-1H-7')
+model14 = load_model('static_generator/pre-train/new-vac-1H-14')
+model21 = load_model('static_generator/pre-train/new-vac-1H-21')
+model28 = load_model('static_generator/pre-train/new-vac-1H-28')
 
 print("!!! Forecasting")
 totalCaseScaler = StandardScaler()
