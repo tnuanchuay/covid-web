@@ -16,6 +16,6 @@ jobs:
       - name: install python and pip
         run: sudo apt install -y python3 python3-pip
       - name: install python deps
-        run: pip3 install -y tensorflow pandas numpy scikit-learn
+        run: pip3 install tensorflow pandas numpy scikit-learn
 
       
